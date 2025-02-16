@@ -7,6 +7,7 @@ Creating Webhook for payment link in Stripe (goal, in progress).
 
 ## In this Repo
 
+- requirements.txt
 - checkAPIKeys.py - to check if API Keys are correctly assigned & can be accessed properly
 - stripeCheck.py - to check if Stripe connection is successfully established
 
