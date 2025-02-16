@@ -12,6 +12,16 @@ Creating Webhook for payment link in Stripe (goal, in progress).
 
 ## How to use
 
+0. (Highly recommended) Make Miniconda/Virtualenv
 1. Input your secret & public API Keys in .env ("API_secret_KEY" & "API_publisher_KEY" respectively)
 2. Run checkAPIKeys.py to check if your API keys can be appropriately accessed
 3. Run stripeCheck.py & enter https://127.0.0.1:5000/check_stripe (local machine) on browser to check if connection to Stripe is successful (you'll get the message "Stripe connection successful" when it's properly established)
+
+
+## Dependencies
+```python
+dotenv
+stripe
+os
+
+```
